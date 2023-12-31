@@ -3,7 +3,7 @@ class Base:
     b=20
     def __init__(self,c):
         self.c = c
-    def display(self):                                    
+    def display(self):
         print(self.c)
 class derived(Base):
     

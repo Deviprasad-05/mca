@@ -12,4 +12,4 @@ class child(parent):
         super().__init__(a,b,c,d)
         self.e=e
         self.f=f
-obj=child(10,20,30,40,50,60)                                                                                                                                                   ''
+obj=child(10,20,30,40,50,60) 
