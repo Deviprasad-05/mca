@@ -1,5 +1,5 @@
 import re
-st = '1 6 567 the 92 date 54 is 04/01/2024'
+st = '9067579308'
 
-data = re.findall('\d+',st)
+data = re.findall('\+91-6789[0-9]\d{10}',st)
 print(data)
